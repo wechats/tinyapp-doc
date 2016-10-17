@@ -12,9 +12,10 @@
 本手册虽力求同步于微信公众平台官方文档的更新，但仍不代表官方文档，如有疑问请遵照官方内容。
 
 手册完整在线版本地址：https://wechats.github.io/tinyapp-doc/
+
 微信官方手册地址（内测）： https://mp.weixin.qq.com/debug/wxadoc/dev/
 
-本离线手册的持续更新地址为：http://www.xcxlm.cn
+离线手册的持续更新地址为：http://www.xcxlm.cn
 
 微信小程序技术交流QQ群：416592844
 
