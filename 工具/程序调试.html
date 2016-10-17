@@ -1,0 +1,2322 @@
+
+<!DOCTYPE HTML>
+<html lang="" >
+    <head>
+        <meta charset="UTF-8">
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <title>程序调试 · GitBook</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="description" content="">
+        <meta name="generator" content="GitBook 3.2.2">
+        
+        
+        
+    
+    <link rel="stylesheet" href="../gitbook/style.css">
+
+    
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-betterchinese/unicode.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-highlight/website.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-search/search.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-fontsettings/website.css">
+                
+            
+        
+
+    
+
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+
+        
+    
+    
+    <meta name="HandheldFriendly" content="true"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="../gitbook/images/apple-touch-icon-precomposed-152.png">
+    <link rel="shortcut icon" href="../gitbook/images/favicon.ico" type="image/x-icon">
+
+    
+    <link rel="next" href="程序调试.html" />
+    
+    
+    <link rel="prev" href="概览.html" />
+    
+
+    </head>
+    <body>
+        
+<div class="book">
+    <div class="book-summary">
+        
+            
+<div id="book-search-input" role="search">
+    <input type="text" placeholder="Type to search" />
+</div>
+
+            
+                <nav role="navigation">
+                
+
+
+<ul class="summary">
+    
+    
+
+    
+
+    
+        
+        
+    
+        <li class="chapter " data-level="1.1" data-path="../">
+            
+                <a href="../">
+            
+                    
+                    前言
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+        
+        <li class="divider"></li>
+        
+        
+    
+        <li class="chapter " data-level="2.1" data-path="../入门/简易教程.html">
+            
+                <a href="../入门/简易教程.html">
+            
+                    
+                    第一部分 入门
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="2.1.1" data-path="../入门/简易教程.html">
+            
+                <a href="../入门/简易教程.html">
+            
+                    
+                    简易教程
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.1.2" data-path="../入门/体验小程序.html">
+            
+                <a href="../入门/体验小程序.html">
+            
+                    
+                    体验小程序
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+    
+        
+        <li class="divider"></li>
+        
+        
+    
+        <li class="chapter " data-level="3.1" data-path="../框架/">
+            
+                <a href="../框架/">
+            
+                    
+                    第二部分 框架
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="3.1.1" data-path="../框架/目录结构.html">
+            
+                <a href="../框架/目录结构.html">
+            
+                    
+                    目录结构
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.1.2" data-path="../框架/配置.html">
+            
+                <a href="../框架/配置.html">
+            
+                    
+                    配置
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.1.3" data-path="../框架/逻辑层/">
+            
+                <a href="../框架/逻辑层/">
+            
+                    
+                    逻辑层
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="3.1.3.1" data-path="../框架/逻辑层/注册程序.html">
+            
+                <a href="../框架/逻辑层/注册程序.html">
+            
+                    
+                    注册程序
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.1.3.2" data-path="../框架/逻辑层/注册页面.html">
+            
+                <a href="../框架/逻辑层/注册页面.html">
+            
+                    
+                    注册页面
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.1.3.3" data-path="../框架/逻辑层/模块化.html">
+            
+                <a href="../框架/逻辑层/模块化.html">
+            
+                    
+                    模块化
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.1.3.4" data-path="../框架/逻辑层/API.html">
+            
+                <a href="../框架/逻辑层/API.html">
+            
+                    
+                    API
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="3.1.4" data-path="../框架/视图层/">
+            
+                <a href="../框架/视图层/">
+            
+                    
+                    视图层
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="3.1.4.1" data-path="../框架/视图层/WXML/">
+            
+                <a href="../框架/视图层/WXML/">
+            
+                    
+                    WXML
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="3.1.4.1.1" data-path="../框架/视图层/WXML/数据绑定.html">
+            
+                <a href="../框架/视图层/WXML/数据绑定.html">
+            
+                    
+                    数据绑定
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.1.4.1.2" data-path="../框架/视图层/WXML/条件渲染.html">
+            
+                <a href="../框架/视图层/WXML/条件渲染.html">
+            
+                    
+                    条件渲染
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.1.4.1.3" data-path="../框架/视图层/WXML/列表渲染.html">
+            
+                <a href="../框架/视图层/WXML/列表渲染.html">
+            
+                    
+                    列表渲染
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.1.4.1.4" data-path="../框架/视图层/WXML/模板.html">
+            
+                <a href="../框架/视图层/WXML/模板.html">
+            
+                    
+                    模板
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.1.4.1.5" data-path="../框架/视图层/WXML/事件.html">
+            
+                <a href="../框架/视图层/WXML/事件.html">
+            
+                    
+                    事件
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.1.4.1.6" data-path="../框架/视图层/WXML/引用.html">
+            
+                <a href="../框架/视图层/WXML/引用.html">
+            
+                    
+                    引用
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="3.1.4.2" data-path="../框架/视图层/WXSS.html">
+            
+                <a href="../框架/视图层/WXSS.html">
+            
+                    
+                    WXSS
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.1.4.3" data-path="../框架/视图层/组件.html">
+            
+                <a href="../框架/视图层/组件.html">
+            
+                    
+                    组件
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+    
+        
+        <li class="divider"></li>
+        
+        
+    
+        <li class="chapter " data-level="4.1" data-path="../组件/">
+            
+                <a href="../组件/">
+            
+                    
+                    第三部分 组件
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="4.1.1" data-path="../组件/视图容器/view.html">
+            
+                <a href="../组件/视图容器/view.html">
+            
+                    
+                    视图容器
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="4.1.1.1" data-path="../组件/视图容器/view.html">
+            
+                <a href="../组件/视图容器/view.html">
+            
+                    
+                    view
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="4.1.1.2" data-path="../组件/视图容器/scroll-view.html">
+            
+                <a href="../组件/视图容器/scroll-view.html">
+            
+                    
+                    scroll-view
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="4.1.1.3" data-path="../组件/视图容器/swiper.html">
+            
+                <a href="../组件/视图容器/swiper.html">
+            
+                    
+                    swiper
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="4.1.2" data-path="../组件/基础内容/icon.html">
+            
+                <a href="../组件/基础内容/icon.html">
+            
+                    
+                    基础内容
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="4.1.2.1" data-path="../组件/基础内容/icon.html">
+            
+                <a href="../组件/基础内容/icon.html">
+            
+                    
+                    icon
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="4.1.2.2" data-path="../组件/基础内容/text.html">
+            
+                <a href="../组件/基础内容/text.html">
+            
+                    
+                    text
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="4.1.2.3" data-path="../组件/基础内容/progress.html">
+            
+                <a href="../组件/基础内容/progress.html">
+            
+                    
+                    progress
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="4.1.3" data-path="../组件/表单组件/button.html">
+            
+                <a href="../组件/表单组件/button.html">
+            
+                    
+                    表单组件
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="4.1.3.1" data-path="../组件/表单组件/button.html">
+            
+                <a href="../组件/表单组件/button.html">
+            
+                    
+                    button
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="4.1.3.2" data-path="../组件/表单组件/checkbox.html">
+            
+                <a href="../组件/表单组件/checkbox.html">
+            
+                    
+                    checkbox
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="4.1.3.3" data-path="../组件/表单组件/form.html">
+            
+                <a href="../组件/表单组件/form.html">
+            
+                    
+                    form
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="4.1.3.4" data-path="../组件/表单组件/input.html">
+            
+                <a href="../组件/表单组件/input.html">
+            
+                    
+                    input
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="4.1.3.5" data-path="../组件/表单组件/label.html">
+            
+                <a href="../组件/表单组件/label.html">
+            
+                    
+                    label
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="4.1.3.6" data-path="../组件/表单组件/picker.html">
+            
+                <a href="../组件/表单组件/picker.html">
+            
+                    
+                    picker
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="4.1.3.7" data-path="../组件/表单组件/radio.html">
+            
+                <a href="../组件/表单组件/radio.html">
+            
+                    
+                    radio
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="4.1.3.8" data-path="../组件/表单组件/slider.html">
+            
+                <a href="../组件/表单组件/slider.html">
+            
+                    
+                    slider
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="4.1.3.9" data-path="../组件/表单组件/switch.html">
+            
+                <a href="../组件/表单组件/switch.html">
+            
+                    
+                    switch
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="4.1.4" data-path="../组件/操作反馈/action-sheet.html">
+            
+                <a href="../组件/操作反馈/action-sheet.html">
+            
+                    
+                    操作反馈
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="4.1.4.1" data-path="../组件/操作反馈/action-sheet.html">
+            
+                <a href="../组件/操作反馈/action-sheet.html">
+            
+                    
+                    action-sheet
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="4.1.4.2" data-path="../组件/操作反馈/modal.html">
+            
+                <a href="../组件/操作反馈/modal.html">
+            
+                    
+                    modal
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="4.1.4.3" data-path="../组件/操作反馈/toast.html">
+            
+                <a href="../组件/操作反馈/toast.html">
+            
+                    
+                    toast
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="4.1.4.4" data-path="../组件/操作反馈/loading.html">
+            
+                <a href="../组件/操作反馈/loading.html">
+            
+                    
+                    loading
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="4.1.5" data-path="../组件/导航/navigator.html">
+            
+                <a href="../组件/导航/navigator.html">
+            
+                    
+                    导航
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="4.1.5.1" data-path="../组件/导航/navigator.html">
+            
+                <a href="../组件/导航/navigator.html">
+            
+                    
+                    navigator
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="4.1.6" data-path="../组件/媒体组件/audio.html">
+            
+                <a href="../组件/媒体组件/audio.html">
+            
+                    
+                    媒体组件
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="4.1.6.1" data-path="../组件/媒体组件/audio.html">
+            
+                <a href="../组件/媒体组件/audio.html">
+            
+                    
+                    audio
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="4.1.6.2" data-path="../组件/媒体组件/image.html">
+            
+                <a href="../组件/媒体组件/image.html">
+            
+                    
+                    image
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="4.1.6.3" data-path="../组件/媒体组件/video.html">
+            
+                <a href="../组件/媒体组件/video.html">
+            
+                    
+                    video
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="4.1.7" data-path="../组件/地图/map.html">
+            
+                <a href="../组件/地图/map.html">
+            
+                    
+                    地图
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="4.1.7.1" data-path="../组件/地图/map.html">
+            
+                <a href="../组件/地图/map.html#map">
+            
+                    
+                    map
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="4.1.8" data-path="../组件/画布/canvas.html">
+            
+                <a href="../组件/画布/canvas.html">
+            
+                    
+                    画布
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="4.1.8.1" data-path="../组件/画布/canvas.html">
+            
+                <a href="../组件/画布/canvas.html#canvas">
+            
+                    
+                    canvas
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+    
+        
+        <li class="divider"></li>
+        
+        
+    
+        <li class="chapter " data-level="5.1" data-path="../API/">
+            
+                <a href="../API/">
+            
+                    
+                    第四部分 API
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="5.1.1" data-path="../API/网络/">
+            
+                <a href="../API/网络/">
+            
+                    
+                    网络
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="5.1.1.1" data-path="../API/网络/发起请求.html">
+            
+                <a href="../API/网络/发起请求.html">
+            
+                    
+                    发起请求
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="5.1.1.2" data-path="../API/网络/上传、下载.html">
+            
+                <a href="../API/网络/上传、下载.html">
+            
+                    
+                    上传、下载
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="5.1.1.2.1" data-path="../API/网络/上传、下载.html">
+            
+                <a href="../API/网络/上传、下载.html#wxuploadfileobject">
+            
+                    
+                    wx.uploadFile
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="5.1.1.2.2" data-path="../API/网络/上传、下载.html">
+            
+                <a href="../API/网络/上传、下载.html#wxdownloadfileobject">
+            
+                    
+                    wx.downloadFile
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="5.1.1.3" data-path="../API/网络/WebSocket.html">
+            
+                <a href="../API/网络/WebSocket.html">
+            
+                    
+                    WebSocket
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="5.1.1.3.1" data-path="../API/网络/WebSocket.html">
+            
+                <a href="../API/网络/WebSocket.html#wxconnectsocketobject">
+            
+                    
+                    wx.connectSocket
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="5.1.1.3.2" data-path="../API/网络/WebSocket.html">
+            
+                <a href="../API/网络/WebSocket.html#wxonsocketopencallback">
+            
+                    
+                    wx.onSocketOpen
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="5.1.1.3.3" data-path="../API/网络/WebSocket.html">
+            
+                <a href="../API/网络/WebSocket.html#wxonsocketerrorcallback">
+            
+                    
+                    wx.onSocketError
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="5.1.1.3.4" data-path="../API/网络/WebSocket.html">
+            
+                <a href="../API/网络/WebSocket.html#wxsendsocketmessageobject">
+            
+                    
+                    wx.sendSocketMessage
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="5.1.1.3.5" data-path="../API/网络/WebSocket.html">
+            
+                <a href="../API/网络/WebSocket.html#wxonsocketmessagecallback">
+            
+                    
+                    wx.onSocketMessage
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="5.1.1.3.6" data-path="../API/网络/WebSocket.html">
+            
+                <a href="../API/网络/WebSocket.html#wxclosesocket">
+            
+                    
+                    wx.closeSocket
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="5.1.1.3.7" data-path="../API/网络/WebSocket.html">
+            
+                <a href="../API/网络/WebSocket.html#wxonsocketclosecallback">
+            
+                    
+                    wx.onSocketClose
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="5.1.2" data-path="../API/媒体/图片.html">
+            
+                <a href="../API/媒体/图片.html">
+            
+                    
+                    媒体
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="5.1.2.1" data-path="../API/媒体/图片.html">
+            
+                <a href="../API/媒体/图片.html">
+            
+                    
+                    图片
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="5.1.2.1.1" data-path="../API/媒体/图片.html">
+            
+                <a href="../API/媒体/图片.html#wxchooseimageobject">
+            
+                    
+                    wx.chooseImage
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="5.1.2.1.2" data-path="../API/媒体/图片.html">
+            
+                <a href="../API/媒体/图片.html#wxpreviewimageobject">
+            
+                    
+                    wx.previewImage
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="5.1.2.2" data-path="../API/媒体/录音.html">
+            
+                <a href="../API/媒体/录音.html">
+            
+                    
+                    录音
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="5.1.2.2.1" data-path="../API/媒体/录音.html">
+            
+                <a href="../API/媒体/录音.html#wxstartrecordobject">
+            
+                    
+                    wx.startRecord
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="5.1.2.2.2" data-path="../API/媒体/录音.html">
+            
+                <a href="../API/媒体/录音.html#wxstoprecord">
+            
+                    
+                    wx.stopRecord
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="5.1.2.3" data-path="../API/媒体/音频播放控制.html">
+            
+                <a href="../API/媒体/音频播放控制.html">
+            
+                    
+                    音频播放控制
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="5.1.2.3.1" data-path="../API/媒体/音频播放控制.html">
+            
+                <a href="../API/媒体/音频播放控制.html#wxplayvoiceobject">
+            
+                    
+                    wx.playVoice
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="5.1.2.3.2" data-path="../API/媒体/音频播放控制.html">
+            
+                <a href="../API/媒体/音频播放控制.html#wxpausevoice">
+            
+                    
+                    wx.pauseVoice
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="5.1.2.3.3" data-path="../API/媒体/音频播放控制.html">
+            
+                <a href="../API/媒体/音频播放控制.html#wxstopvoice">
+            
+                    
+                    wx.stopVoice
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="5.1.2.4" data-path="../API/媒体/音乐播放控制.html">
+            
+                <a href="../API/媒体/音乐播放控制.html">
+            
+                    
+                    音乐播放控制
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="5.1.2.4.1" data-path="../API/媒体/音乐播放控制.html">
+            
+                <a href="../API/媒体/音乐播放控制.html#wxgetbackgroundaudioplayerstateobject">
+            
+                    
+                    wx.getBackgroundAudioPlayerState
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="5.1.2.4.2" data-path="../API/媒体/音乐播放控制.html">
+            
+                <a href="../API/媒体/音乐播放控制.html#wxplaybackgroundaudioobject">
+            
+                    
+                    wx.playBackgroundAudio
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="5.1.2.4.3" data-path="../API/媒体/音乐播放控制.html">
+            
+                <a href="../API/媒体/音乐播放控制.html#wxpausebackgroundaudio">
+            
+                    
+                    wx.pauseBackgroundAudio
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="5.1.2.4.4" data-path="../API/媒体/音乐播放控制.html">
+            
+                <a href="../API/媒体/音乐播放控制.html#wxseekbackgroundaudioobject">
+            
+                    
+                    wx.seekBackgroundAudio
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="5.1.2.4.5" data-path="../API/媒体/音乐播放控制.html">
+            
+                <a href="../API/媒体/音乐播放控制.html#wxstopbackgroundaudio">
+            
+                    
+                    wx.stopBackgroundAudio
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="5.1.2.4.6" data-path="../API/媒体/音乐播放控制.html">
+            
+                <a href="../API/媒体/音乐播放控制.html#wxonbackgroundaudioplaycallback">
+            
+                    
+                    wx.onBackgroundAudioPlay
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="5.1.2.4.7" data-path="../API/媒体/音乐播放控制.html">
+            
+                <a href="../API/媒体/音乐播放控制.html#wxonbackgroundaudiopausecallback">
+            
+                    
+                    wx.onBackgroundAudioPause
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="5.1.2.4.8" data-path="../API/媒体/音乐播放控制.html">
+            
+                <a href="../API/媒体/音乐播放控制.html#wxonbackgroundaudiostopcallback">
+            
+                    
+                    wx.onBackgroundAudioStop
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="5.1.2.5" data-path="../API/媒体/文件.html">
+            
+                <a href="../API/媒体/文件.html">
+            
+                    
+                    文件
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="5.1.2.6" data-path="../API/媒体/视频.html">
+            
+                <a href="../API/媒体/视频.html">
+            
+                    
+                    视频
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="5.1.3" data-path="../API/数据.html">
+            
+                <a href="../API/数据.html">
+            
+                    
+                    数据
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="5.1.3.1" data-path="../API/数据.html">
+            
+                <a href="../API/数据.html">
+            
+                    
+                    数据缓存
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="5.1.3.1.1" data-path="../API/数据.html">
+            
+                <a href="../API/数据.html#wxsetstorageobject">
+            
+                    
+                    wx.setStorage
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="5.1.3.1.2" data-path="../API/数据.html">
+            
+                <a href="../API/数据.html#wxsetstoragesynckeyvalue">
+            
+                    
+                    wx.setStorageSync
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="5.1.3.1.3" data-path="../API/数据.html">
+            
+                <a href="../API/数据.html#wxgetstorageobject">
+            
+                    
+                    wx.getStorage
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="5.1.3.1.4" data-path="../API/数据.html">
+            
+                <a href="../API/数据.html#wxgetstoragesynckey">
+            
+                    
+                    wx.getStorageSync
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="5.1.3.1.5" data-path="../API/数据.html">
+            
+                <a href="../API/数据.html#wxclearstorage">
+            
+                    
+                    wx.clearStorage
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="5.1.3.1.6" data-path="../API/数据.html">
+            
+                <a href="../API/数据.html#wxclearstoragesync">
+            
+                    
+                    wx.clearStorageSync
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="5.1.4" data-path="../API/位置.html">
+            
+                <a href="../API/位置.html">
+            
+                    
+                    位置
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="5.1.4.1" data-path="../API/位置.html">
+            
+                <a href="../API/位置.html#wxgetlocationobject">
+            
+                    
+                    获取位置
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="5.1.4.2" data-path="../API/位置.html">
+            
+                <a href="../API/位置.html#wxopenlocationobject">
+            
+                    
+                    查看位置
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="5.1.5" data-path="../API/设备.html">
+            
+                <a href="../API/设备.html">
+            
+                    
+                    设备
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="5.1.5.1" data-path="../API/设备.html">
+            
+                <a href="../API/设备.html#wxgetnetworktypeobject">
+            
+                    
+                    网络状态
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="5.1.5.2" data-path="../API/设备.html">
+            
+                <a href="../API/设备.html#wxgetsysteminfoobject">
+            
+                    
+                    系统信息
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="5.1.5.3" data-path="../API/设备.html">
+            
+                <a href="../API/设备.html#wxonaccelerometerchangecallback">
+            
+                    
+                    重力感应
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="5.1.5.4" data-path="../API/设备.html">
+            
+                <a href="../API/设备.html#wxoncompasschangecallback">
+            
+                    
+                    罗盘
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="5.1.6" data-path="../API/界面/设置导航条.html">
+            
+                <a href="../API/界面/设置导航条.html">
+            
+                    
+                    界面
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="5.1.6.1" data-path="../API/界面/设置导航条.html">
+            
+                <a href="../API/界面/设置导航条.html">
+            
+                    
+                    设置导航条
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="5.1.6.2" data-path="../API/界面/导航.html">
+            
+                <a href="../API/界面/导航.html">
+            
+                    
+                    导航
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="5.1.6.3" data-path="../API/界面/动画.html">
+            
+                <a href="../API/界面/动画.html">
+            
+                    
+                    动画
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="5.1.6.4" data-path="../API/界面/绘图.html">
+            
+                <a href="../API/界面/绘图.html">
+            
+                    
+                    绘图
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="5.1.6.5" data-path="../API/界面/其他.html">
+            
+                <a href="../API/界面/其他.html">
+            
+                    
+                    其他
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="5.1.7" data-path="../API/开放接口/登录/">
+            
+                <a href="../API/开放接口/登录/">
+            
+                    
+                    开放接口
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="5.1.7.1" data-path="../API/开放接口/登录/">
+            
+                <a href="../API/开放接口/登录/">
+            
+                    
+                    登录
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="5.1.7.1.1" data-path="../API/开放接口/登录/签名加密.html">
+            
+                <a href="../API/开放接口/登录/签名加密.html">
+            
+                    
+                    签名加密
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="5.1.7.2" data-path="../API/开放接口/用户信息.html">
+            
+                <a href="../API/开放接口/用户信息.html">
+            
+                    
+                    用户信息
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="5.1.7.3" data-path="../API/开放接口/微信支付.html">
+            
+                <a href="../API/开放接口/微信支付.html">
+            
+                    
+                    微信支付
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="5.1.7.4" data-path="../API/开放接口/模板消息.html">
+            
+                <a href="../API/开放接口/模板消息.html">
+            
+                    
+                    模板消息
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="5.1.7.5" data-path="../API/开放接口/模板消息.html">
+            
+                <a href="../API/开放接口/模板消息.html#使用说明">
+            
+                    
+                    使用说明
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="5.1.7.6" data-path="../API/开放接口/模板消息.html">
+            
+                <a href="../API/开放接口/模板消息.html#接口说明">
+            
+                    
+                    接口说明
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+    
+        
+        <li class="divider"></li>
+        
+        
+    
+        <li class="chapter " data-level="6.1" data-path="概览.html">
+            
+                <a href="概览.html">
+            
+                    
+                    第五部分 工具
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="6.1.1" data-path="概览.html">
+            
+                <a href="概览.html">
+            
+                    
+                    概览
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter active" data-level="6.1.2" data-path="程序调试.html">
+            
+                <a href="程序调试.html">
+            
+                    
+                    程序调试
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="6.1.2.1" data-path="程序调试.html">
+            
+                <a href="程序调试.html#模拟器">
+            
+                    
+                    模拟器
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="6.1.2.2" data-path="程序调试.html">
+            
+                <a href="程序调试.html#调试工具">
+            
+                    
+                    调试工具
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="6.1.2.2.1" data-path="程序调试.html">
+            
+                <a href="程序调试.html#wxml-panel">
+            
+                    
+                    Wxml Panel
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="6.1.2.2.2" data-path="程序调试.html">
+            
+                <a href="程序调试.html#sources-panel">
+            
+                    
+                    Sources Panel
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="6.1.2.2.3" data-path="程序调试.html">
+            
+                <a href="程序调试.html#network-panel">
+            
+                    
+                    Network Panel
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="6.1.2.2.4" data-path="程序调试.html">
+            
+                <a href="程序调试.html#appdata-panel">
+            
+                    
+                    Appdata Panel
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="6.1.2.2.5" data-path="程序调试.html">
+            
+                <a href="程序调试.html#storage-panel">
+            
+                    
+                    Storage Panel
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="6.1.2.2.6" data-path="程序调试.html">
+            
+                <a href="程序调试.html#console-panel">
+            
+                    
+                    Console Panel
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="6.1.2.3" data-path="程序调试.html">
+            
+                <a href="程序调试.html#小程序操作区">
+            
+                    
+                    小程序操作区
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="6.1.3" data-path="代码编辑.html">
+            
+                <a href="代码编辑.html">
+            
+                    
+                    代码编辑
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="6.1.4" data-path="项目预览.html">
+            
+                <a href="项目预览.html">
+            
+                    
+                    项目预览
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="6.1.5" data-path="下载.html">
+            
+                <a href="下载.html">
+            
+                    
+                    下载
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+    
+        
+        <li class="divider"></li>
+        
+        
+    
+        <li class="chapter " data-level="7.1" data-path="../Q&A/Q&A.html">
+            
+                <a href="../Q&A/Q&A.html">
+            
+                    
+                    第六部分 Q&A
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="7.1.1" data-path="../Q&A/Q&A.html">
+            
+                <a href="../Q&A/Q&A.html">
+            
+                    
+                    Q&A
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="7.1.2" data-path="../Q&A/联系我们.html">
+            
+                <a href="../Q&A/联系我们.html">
+            
+                    
+                    联系我们
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+    
+
+    <li class="divider"></li>
+
+    <li>
+        <a href="https://www.gitbook.com" target="blank" class="gitbook-link">
+            Published with GitBook
+        </a>
+    </li>
+</ul>
+
+
+                </nav>
+            
+        
+    </div>
+
+    <div class="book-body">
+        
+            <div class="body-inner">
+                
+                    
+
+<div class="book-header" role="navigation">
+    
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <a href=".." >程序调试</a>
+    </h1>
+</div>
+
+
+
+
+                    <div class="page-wrapper" tabindex="-1" role="main">
+                        <div class="page-inner">
+                            
+<div id="book-search-results">
+    <div class="search-noresults">
+    
+                                <section class="normal markdown-section">
+                                
+                                <p>&#x7A0B;&#x5E8F;&#x8C03;&#x8BD5;&#x4E3B;&#x8981;&#x6709;&#x4E09;&#x5927;&#x529F;&#x80FD;&#x533A;&#xFF1A;&#x6A21;&#x62DF;&#x5668;&#x3001;&#x8C03;&#x8BD5;&#x5DE5;&#x5177;&#x548C;&#x5C0F;&#x7A0B;&#x5E8F;&#x64CD;&#x4F5C;&#x533A;</p>
+<h2 id="&#x6A21;&#x62DF;&#x5668;">&#x6A21;&#x62DF;&#x5668;</h2>
+<p>&#x6A21;&#x62DF;&#x5668;&#x6A21;&#x62DF;&#x5FAE;&#x4FE1;&#x5C0F;&#x7A0B;&#x5E8F;&#x5728;&#x5BA2;&#x6237;&#x7AEF;&#x771F;&#x5B9E;&#x7684;&#x903B;&#x8F91;&#x8868;&#x73B0;&#xFF0C;&#x5BF9;&#x4E8E;&#x7EDD;&#x5927;&#x90E8;&#x5206;&#x7684; API &#x5747;&#x80FD;&#x591F;&#x5728;&#x6A21;&#x62DF;&#x5668;&#x4E0A;&#x5448;&#x73B0;&#x51FA;&#x6B63;&#x786E;&#x7684;&#x72B6;&#x6001;&#x3002;</p>
+<p><img src="../image/devtools/2.png" alt=""></p>
+<h2 id="&#x8C03;&#x8BD5;&#x5DE5;&#x5177;">&#x8C03;&#x8BD5;&#x5DE5;&#x5177;</h2>
+<p>&#x8C03;&#x8BD5;&#x5DE5;&#x5177;&#x5206;&#x4E3A; 6 &#x5927;&#x529F;&#x80FD;&#x6A21;&#x5757;&#xFF1A;Wxml&#x3001;Console&#x3001;Sources&#x3001;Network&#x3001;Appdata&#x3001;Storage</p>
+<h3 id="wxml-panel">Wxml panel</h3>
+<p>Wxml panel &#x7528;&#x4E8E;&#x5E2E;&#x52A9;&#x5F00;&#x53D1;&#x8005;&#x5F00;&#x53D1; Wxml &#x8F6C;&#x5316;&#x540E;&#x7684;&#x754C;&#x9762;&#x3002;&#x5728;&#x8FD9;&#x91CC;&#x53EF;&#x4EE5;&#x770B;&#x5230;&#x771F;&#x5B9E;&#x7684;&#x9875;&#x9762;&#x7ED3;&#x6784;&#x4EE5;&#x53CA;&#x7ED3;&#x6784;&#x5BF9;&#x5E94;&#x7684; wxss &#x5C5E;&#x6027;&#xFF0C;&#x540C;&#x65F6;&#x53EF;&#x4EE5;&#x901A;&#x8FC7;&#x4FEE;&#x6539;&#x5BF9;&#x5E94; wxss &#x5C5E;&#x6027;&#xFF0C;&#x5728;&#x6A21;&#x62DF;&#x5668;&#x4E2D;&#x5B9E;&#x65F6;&#x770B;&#x5230;&#x4FEE;&#x6539;&#x7684;&#x60C5;&#x51B5;&#x3002;&#x901A;&#x8FC7;&#x8C03;&#x8BD5;&#x6A21;&#x5757;&#x5DE6;&#x4E0A;&#x89D2;&#x7684;&#x9009;&#x62E9;&#x5668;&#xFF0C;&#x8FD8;&#x53EF;&#x4EE5;&#x5FEB;&#x901F;&#x627E;&#x5230;&#x9875;&#x9762;&#x4E2D;&#x7EC4;&#x4EF6;&#x5BF9;&#x5E94;&#x7684; wxml &#x4EE3;&#x7801;&#x3002;</p>
+<p><img src="../image/devtools/wxml.gif" alt=""></p>
+<h3 id="sources-panel">Sources panel</h3>
+<p>Sources panel &#x7528;&#x4E8E;&#x663E;&#x793A;&#x5F53;&#x524D;&#x9879;&#x76EE;&#x7684;&#x811A;&#x672C;&#x6587;&#x4EF6;&#xFF0C;&#x540C;&#x6D4F;&#x89C8;&#x5668;&#x5F00;&#x53D1;&#x4E0D;&#x540C;&#xFF0C;&#x5FAE;&#x4FE1;&#x5C0F;&#x7A0B;&#x5E8F;&#x6846;&#x67B6;&#x4F1A;&#x5BF9;&#x811A;&#x672C;&#x6587;&#x4EF6;&#x8FDB;&#x884C;&#x7F16;&#x8BD1;&#x7684;&#x5DE5;&#x4F5C;&#xFF0C;&#x6240;&#x4EE5;&#x5728; Sources panel &#x4E2D;&#x5F00;&#x53D1;&#x8005;&#x770B;&#x5230;&#x7684;&#x6587;&#x4EF6;&#x662F;&#x7ECF;&#x8FC7;&#x5904;&#x7406;&#x4E4B;&#x540E;&#x7684;&#x811A;&#x672C;&#x6587;&#x4EF6;&#xFF0C;&#x5F00;&#x53D1;&#x8005;&#x7684;&#x4EE3;&#x7801;&#x90FD;&#x4F1A;&#x88AB;&#x5305;&#x88F9;&#x5728; define &#x51FD;&#x6570;&#x4E2D;&#xFF0C;&#x5E76;&#x4E14;&#x5BF9;&#x4E8E; Page &#x4EE3;&#x7801;&#xFF0C;&#x5728;&#x5C3E;&#x90E8;&#x4F1A;&#x6709; require &#x7684;&#x4E3B;&#x52A8;&#x8C03;&#x7528;&#x3002;</p>
+<p><img src="../image/devtools/sources.png" alt=""></p>
+<h3 id="network-panel">Network panel</h3>
+<p>Netwrok Pannle &#x7528;&#x4E8E;&#x89C2;&#x5BDF;&#x548C;&#x663E;&#x793A; request &#x548C; socket &#x7684;&#x8BF7;&#x6C42;&#x60C5;&#x51B5;</p>
+<p><img src="../image/devtools/network.png" alt=""></p>
+<h3 id="appdata-panel">Appdata panel</h3>
+<p>Appdata panel &#x7528;&#x4E8E;&#x663E;&#x793A;&#x5F53;&#x524D;&#x9879;&#x76EE;&#x5F53;&#x524D;&#x65F6;&#x523B; appdata &#x5177;&#x4F53;&#x6570;&#x636E;&#xFF0C;&#x5B9E;&#x65F6;&#x5730;&#x53CD;&#x9988;&#x9879;&#x76EE;&#x6570;&#x636E;&#x60C5;&#x51B5;&#xFF0C;&#x53EF;&#x4EE5;&#x5728;&#x6B64;&#x5904;&#x7F16;&#x8F91;&#x6570;&#x636E;&#xFF0C;&#x5E76;&#x53CA;&#x65F6;&#x5730;&#x53CD;&#x9988;&#x5230;&#x754C;&#x9762;&#x4E0A;&#x3002;</p>
+<p><img src="../image/devtools/appdata.gif" alt=""></p>
+<h3 id="storage-panel">Storage panel</h3>
+<p>Storage panel &#x7528;&#x4E8E;&#x663E;&#x793A;&#x5F53;&#x524D;&#x9879;&#x76EE;&#x7684;&#x4F7F;&#x7528; wx.setStorage &#x6216;&#x8005; wx.setStorageSync &#x540E;&#x7684;&#x6570;&#x636E;&#x5B58;&#x50A8;&#x60C5;&#x51B5;&#x3002;</p>
+<p><img src="../image/devtools/console1.gif" alt=""></p>
+<h3 id="console-panel">Console panel</h3>
+<p>Console panel &#x6709;&#x4E24;&#x5927;&#x529F;&#x80FD;&#xFF1A;</p>
+<ul>
+<li><p>&#x5F00;&#x53D1;&#x8005;&#x53EF;&#x4EE5;&#x5728;&#x6B64;&#x8F93;&#x5165;&#x548C;&#x8C03;&#x8BD5;&#x4EE3;&#x7801;
+<img src="../image/devtools/console1.gif" alt=""></p>
+</li>
+<li><p>&#x5C0F;&#x7A0B;&#x5E8F;&#x7684;&#x9519;&#x8BEF;&#x8F93;&#x51FA;&#xFF0C;&#x4F1A;&#x663E;&#x793A;&#x5728;&#x6B64;&#x5904;
+<img src="../image/devtools/4.png" alt=""></p>
+</li>
+</ul>
+<h2 id="&#x5C0F;&#x7A0B;&#x5E8F;&#x64CD;&#x4F5C;&#x533A;">&#x5C0F;&#x7A0B;&#x5E8F;&#x64CD;&#x4F5C;&#x533A;</h2>
+<p>&#x5C0F;&#x7A0B;&#x5E8F;&#x64CD;&#x4F5C;&#x533A;&#x5E2E;&#x52A9;&#x5F00;&#x53D1;&#x8005;&#x6A21;&#x62DF;&#x4E00;&#x4E9B;&#x5BA2;&#x6237;&#x7AEF;&#x7684;&#x73AF;&#x5883;&#x64CD;&#x4F5C;&#x3002;&#x4F8B;&#x5982;&#x5F53;&#x7528;&#x6237;&#x4ECE;&#x5C0F;&#x7A0B;&#x5E8F;&#x4E2D;&#x56DE;&#x5230;&#x804A;&#x5929;&#x7A97;&#x53E3;&#xFF0C;&#x4F1A;&#x89E6;&#x53D1;&#x4E00;&#x4E2A;&#x5C0F;&#x7A0B;&#x5E8F;&#x88AB;&#x8BBE;&#x7F6E;&#x4E3A;&#x540E;&#x53F0;&#x7684;api&#x3002;</p>
+<p><img src="../image/devtools/5.png" alt=""></p>
+<p>&#x5F53;&#x5C0F;&#x7A0B;&#x5E8F;&#x4F7F;&#x7528;&#x5230;&#x591A;&#x7A97;&#x53E3;&#x7684;&#x65F6;&#x5019;&#xFF0C;&#x53EF;&#x4EE5;&#x5728;&#x9876;&#x90E8;&#x64CD;&#x4F5C;&#x533A;&#x8FDB;&#x884C;&#x9875;&#x9762;&#x5207;&#x6362;&#xFF0C;&#x9700;&#x8981;&#x6CE8;&#x610F;&#x7684;&#x662F;&#x8FD9;&#x4E2A;&#x64CD;&#x4F5C;&#x53EA;&#x662F;&#x4E3A;&#x4E86;&#x65B9;&#x4FBF;&#x5F00;&#x53D1;&#x8005;&#x624D;&#x5B58;&#x5728;&#x7684;&#xFF0C;&#x5728;&#x771F;&#x5B9E;&#x7684;&#x5FAE;&#x4FE1;&#x5BA2;&#x6237;&#x7AEF;&#x4E2D;&#x662F;&#x4E0D;&#x4F1A;&#x6709;&#x7684;&#x3002;</p>
+<p><img src="../image/devtools/7.png" alt=""></p>
+
+                                
+                                </section>
+                            
+    </div>
+    <div class="search-results">
+        <div class="has-results">
+            
+            <h1 class="search-results-title"><span class='search-results-count'></span> results matching "<span class='search-query'></span>"</h1>
+            <ul class="search-results-list"></ul>
+            
+        </div>
+        <div class="no-results">
+            
+            <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+            
+        </div>
+    </div>
+</div>
+
+                        </div>
+                    </div>
+                
+            </div>
+
+            
+                
+                <a href="概览.html" class="navigation navigation-prev " aria-label="Previous page: 概览">
+                    <i class="fa fa-angle-left"></i>
+                </a>
+                
+                
+                <a href="程序调试.html#模拟器" class="navigation navigation-next " aria-label="Next page: 模拟器">
+                    <i class="fa fa-angle-right"></i>
+                </a>
+                
+            
+        
+    </div>
+
+    <script>
+        var gitbook = gitbook || [];
+        gitbook.push(function() {
+            gitbook.page.hasChanged({"page":{"title":"程序调试","level":"6.1.2","depth":2,"next":{"title":"模拟器","level":"6.1.2.1","depth":3,"anchor":"#模拟器","path":"工具/程序调试.md","ref":"工具/程序调试.md#模拟器","articles":[]},"previous":{"title":"概览","level":"6.1.1","depth":2,"path":"工具/概览.md","ref":"工具/概览.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":["betterchinese","-duoshuo","highlight","search","lunr","sharing","-livereload"],"pluginsConfig":{"duoshuo":{"short_name":"xcxlm.cn","theme":"default"},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":false,"twitter":false,"google":false,"weibo":true,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"betterchinese":{},"highlight":{},"search":{},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"工具/程序调试.md","mtime":"2016-10-16T15:34:06.964Z","type":"markdown"},"gitbook":{"version":"3.2.2","time":"2016-10-17T03:20:13.335Z"},"basePath":"..","book":{"language":""}});
+        });
+    </script>
+</div>
+
+        
+    <script src="../gitbook/gitbook.js"></script>
+    <script src="../gitbook/theme.js"></script>
+    
+        
+        <script src="../gitbook/gitbook-plugin-search/search-engine.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-search/search.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-lunr/lunr.min.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-lunr/search-lunr.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-sharing/buttons.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-fontsettings/fontsettings.js"></script>
+        
+    
+
+    </body>
+</html>
+
