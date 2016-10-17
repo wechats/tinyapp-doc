@@ -1849,9 +1849,10 @@
             
 
             
-        </li>
+            <ul class="articles">
+                
     
-        <li class="chapter " data-level="5.1.7.5" data-path="../API/开放接口/模板消息.html">
+        <li class="chapter " data-level="5.1.7.4.1" data-path="../API/开放接口/模板消息.html">
             
                 <a href="../API/开放接口/模板消息.html#使用说明">
             
@@ -1864,7 +1865,7 @@
             
         </li>
     
-        <li class="chapter " data-level="5.1.7.6" data-path="../API/开放接口/模板消息.html">
+        <li class="chapter " data-level="5.1.7.4.2" data-path="../API/开放接口/模板消息.html">
             
                 <a href="../API/开放接口/模板消息.html#接口说明">
             
@@ -1874,6 +1875,11 @@
                 </a>
             
 
+            
+        </li>
+    
+
+            </ul>
             
         </li>
     
@@ -2213,7 +2219,7 @@
 <p>&#x6846;&#x67B6;&#x53EF;&#x4EE5;&#x8BA9;&#x6570;&#x636E;&#x4E0E;&#x89C6;&#x56FE;&#x975E;&#x5E38;&#x7B80;&#x5355;&#x5730;&#x4FDD;&#x6301;&#x540C;&#x6B65;&#x3002;&#x5F53;&#x505A;&#x6570;&#x636E;&#x4FEE;&#x6539;&#x7684;&#x65F6;&#x5019;&#xFF0C;&#x53EA;&#x9700;&#x8981;&#x5728;&#x903B;&#x8F91;&#x5C42;&#x4FEE;&#x6539;&#x6570;&#x636E;&#xFF0C;&#x89C6;&#x56FE;&#x5C42;&#x5C31;&#x4F1A;&#x505A;&#x76F8;&#x5E94;&#x7684;&#x66F4;&#x65B0;&#x3002;</p>
 <p>&#x901A;&#x8FC7;&#x8FD9;&#x4E2A;&#x7B80;&#x5355;&#x7684;&#x4F8B;&#x5B50;&#x6765;&#x770B;&#xFF1A;</p>
 <pre><code>&lt;!-- This is our View --&gt;
-&lt;view&gt; Hello ! &lt;/view&gt;
+&lt;view&gt; Hello {{name}}! &lt;/view&gt;
 &lt;button bindtap=&quot;changeName&quot;&gt; Click me! &lt;/button&gt;
 </code></pre><pre><code>// This is our App Service.
 // This is our data.
@@ -2285,7 +2291,7 @@ Page({
     <script>
         var gitbook = gitbook || [];
         gitbook.push(function() {
-            gitbook.page.hasChanged({"page":{"title":"第二部分 框架","level":"3.1","depth":1,"next":{"title":"目录结构","level":"3.1.1","depth":2,"path":"框架/目录结构.md","ref":"框架/目录结构.md","articles":[]},"previous":{"title":"体验小程序","level":"2.1.2","depth":2,"path":"入门/体验小程序.md","ref":"入门/体验小程序.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":["betterchinese","-duoshuo","highlight","search","lunr","sharing","-livereload","baidu"],"pluginsConfig":{"search":{},"lunr":{"ignoreSpecialCharacters":false,"maxIndexSize":1000000},"duoshuo":{"short_name":"xcxlm.cn","theme":"default"},"fontsettings":{"theme":"white","family":"sans","size":2},"highlight":{},"baidu":{"token":"4f5ee462bdc0d4fb36bab026bba34eaf"},"sharing":{"all":["facebook","google","twitter","weibo","instapaper"],"facebook":false,"google":false,"instapaper":false,"twitter":false,"vk":false,"weibo":true},"betterchinese":{},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"框架/README.md","mtime":"2016-10-17T05:29:09.470Z","type":"markdown"},"gitbook":{"version":"3.2.2","time":"2016-10-17T05:59:12.276Z"},"basePath":"..","book":{"language":""}});
+            gitbook.page.hasChanged({"page":{"title":"第二部分 框架","level":"3.1","depth":1,"next":{"title":"目录结构","level":"3.1.1","depth":2,"path":"框架/目录结构.md","ref":"框架/目录结构.md","articles":[]},"previous":{"title":"体验小程序","level":"2.1.2","depth":2,"path":"入门/体验小程序.md","ref":"入门/体验小程序.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":["betterchinese","-duoshuo","highlight","search","lunr","sharing","-livereload","baidu"],"pluginsConfig":{"search":{},"lunr":{"ignoreSpecialCharacters":false,"maxIndexSize":1000000},"duoshuo":{"short_name":"xcxlm.cn","theme":"default"},"fontsettings":{"theme":"white","family":"sans","size":2},"highlight":{},"baidu":{"token":"4f5ee462bdc0d4fb36bab026bba34eaf"},"sharing":{"all":["facebook","google","twitter","weibo","instapaper"],"facebook":false,"google":false,"instapaper":false,"twitter":false,"vk":false,"weibo":true},"betterchinese":{},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"框架/README.md","mtime":"2016-10-17T07:22:20.196Z","type":"markdown"},"gitbook":{"version":"3.2.2","time":"2016-10-17T08:01:58.350Z"},"basePath":"..","book":{"language":""}});
         });
     </script>
 </div>

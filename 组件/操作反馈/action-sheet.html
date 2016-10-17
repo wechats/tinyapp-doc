@@ -1849,9 +1849,10 @@
             
 
             
-        </li>
+            <ul class="articles">
+                
     
-        <li class="chapter " data-level="5.1.7.5" data-path="../../API/开放接口/模板消息.html">
+        <li class="chapter " data-level="5.1.7.4.1" data-path="../../API/开放接口/模板消息.html">
             
                 <a href="../../API/开放接口/模板消息.html#使用说明">
             
@@ -1864,7 +1865,7 @@
             
         </li>
     
-        <li class="chapter " data-level="5.1.7.6" data-path="../../API/开放接口/模板消息.html">
+        <li class="chapter " data-level="5.1.7.4.2" data-path="../../API/开放接口/模板消息.html">
             
                 <a href="../../API/开放接口/模板消息.html#接口说明">
             
@@ -1874,6 +1875,11 @@
                 </a>
             
 
+            
+        </li>
+    
+
+            </ul>
             
         </li>
     
@@ -2209,10 +2215,10 @@
 <table>
 <thead>
 <tr>
-<th>&#x5C5E;&#x6027;&#x540D;&#x7C7B;&#x578B;&#x9ED8;&#x8BA4;&#x503C;&#x8BF4;&#x660E;</th>
-<th></th>
-<th></th>
-<th></th>
+<th>&#x5C5E;&#x6027;&#x540D;</th>
+<th>&#x7C7B;&#x578B;</th>
+<th>&#x9ED8;&#x8BA4;&#x503C;</th>
+<th>&#x8BF4;&#x660E;</th>
 </tr>
 </thead>
 <tbody>
@@ -2230,9 +2236,9 @@
 <p>&#x5E95;&#x90E8;&#x83DC;&#x5355;&#x8868;&#x7684;&#x53D6;&#x6D88;&#x6309;&#x94AE;&#xFF0C;&#x548C;<code>&lt;action-sheet-item/&gt;</code>&#x7684;&#x533A;&#x522B;&#x662F;&#xFF0C;&#x70B9;&#x51FB;&#x5B83;&#x4F1A;&#x89E6;&#x53D1;<code>&lt;action-sheet/&gt;</code>&#x7684;<code>change</code>&#x4E8B;&#x4EF6;&#xFF0C;&#x5E76;&#x4E14;&#x5916;&#x89C2;&#x4E0A;&#x4F1A;&#x540C;&#x5B83;&#x4E0A;&#x9762;&#x7684;&#x5185;&#x5BB9;&#x95F4;&#x9694;&#x5F00;&#x6765;&#x3002;</p>
 <p><strong>&#x793A;&#x4F8B;&#x4EE3;&#x7801;&#xFF1A;</strong></p>
 <pre><code>&lt;button type=&quot;default&quot; bindtap=&quot;actionSheetTap&quot;&gt;&#x5F39;&#x51FA;action sheet&lt;/button&gt;
-&lt;action-sheet hidden=&quot;&quot; bindchange=&quot;actionSheetChange&quot;&gt;
-  &lt;block wx:for=&quot;&quot;&gt;
-    &lt;action-sheet-item class=&quot;item&quot; bindtap=&quot;bindItemTap&quot; data-name=&quot;&quot;&gt;&lt;/action-sheet-item&gt;
+&lt;action-sheet hidden=&quot;{{actionSheetHidden}}&quot; bindchange=&quot;actionSheetChange&quot;&gt;
+  &lt;block wx:for=&quot;{{actionSheetItems}}&quot;&gt;
+    &lt;action-sheet-item class=&quot;item&quot; bindtap=&quot;bindItemTap&quot; data-name=&quot;{{item}}&quot;&gt;&lt;/action-sheet-item&gt;
   &lt;/block&gt;
   &lt;action-sheet-cancel class=&quot;cancel&quot;&gt;&#x53D6;&#x6D88;&lt;/action-sheet-cancel&gt;
 &lt;/action-sheet&gt;
@@ -2299,7 +2305,7 @@
     <script>
         var gitbook = gitbook || [];
         gitbook.push(function() {
-            gitbook.page.hasChanged({"page":{"title":"操作反馈","level":"4.1.4","depth":2,"next":{"title":"action-sheet","level":"4.1.4.1","depth":3,"path":"组件/操作反馈/action-sheet.md","ref":"组件/操作反馈/action-sheet.md","articles":[]},"previous":{"title":"switch","level":"4.1.3.9","depth":3,"path":"组件/表单组件/switch.md","ref":"组件/表单组件/switch.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":["betterchinese","-duoshuo","highlight","search","lunr","sharing","-livereload","baidu"],"pluginsConfig":{"search":{},"lunr":{"ignoreSpecialCharacters":false,"maxIndexSize":1000000},"duoshuo":{"short_name":"xcxlm.cn","theme":"default"},"fontsettings":{"theme":"white","family":"sans","size":2},"highlight":{},"baidu":{"token":"4f5ee462bdc0d4fb36bab026bba34eaf"},"sharing":{"all":["facebook","google","twitter","weibo","instapaper"],"facebook":false,"google":false,"instapaper":false,"twitter":false,"vk":false,"weibo":true},"betterchinese":{},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"组件/操作反馈/action-sheet.md","mtime":"2016-10-17T05:29:09.470Z","type":"markdown"},"gitbook":{"version":"3.2.2","time":"2016-10-17T05:59:12.276Z"},"basePath":"../..","book":{"language":""}});
+            gitbook.page.hasChanged({"page":{"title":"操作反馈","level":"4.1.4","depth":2,"next":{"title":"action-sheet","level":"4.1.4.1","depth":3,"path":"组件/操作反馈/action-sheet.md","ref":"组件/操作反馈/action-sheet.md","articles":[]},"previous":{"title":"switch","level":"4.1.3.9","depth":3,"path":"组件/表单组件/switch.md","ref":"组件/表单组件/switch.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":["betterchinese","-duoshuo","highlight","search","lunr","sharing","-livereload","baidu"],"pluginsConfig":{"search":{},"lunr":{"ignoreSpecialCharacters":false,"maxIndexSize":1000000},"duoshuo":{"short_name":"xcxlm.cn","theme":"default"},"fontsettings":{"theme":"white","family":"sans","size":2},"highlight":{},"baidu":{"token":"4f5ee462bdc0d4fb36bab026bba34eaf"},"sharing":{"all":["facebook","google","twitter","weibo","instapaper"],"facebook":false,"google":false,"instapaper":false,"twitter":false,"vk":false,"weibo":true},"betterchinese":{},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"组件/操作反馈/action-sheet.md","mtime":"2016-10-17T07:28:58.503Z","type":"markdown"},"gitbook":{"version":"3.2.2","time":"2016-10-17T08:01:58.350Z"},"basePath":"../..","book":{"language":""}});
         });
     </script>
 </div>

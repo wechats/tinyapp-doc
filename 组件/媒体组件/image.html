@@ -1849,9 +1849,10 @@
             
 
             
-        </li>
+            <ul class="articles">
+                
     
-        <li class="chapter " data-level="5.1.7.5" data-path="../../API/开放接口/模板消息.html">
+        <li class="chapter " data-level="5.1.7.4.1" data-path="../../API/开放接口/模板消息.html">
             
                 <a href="../../API/开放接口/模板消息.html#使用说明">
             
@@ -1864,7 +1865,7 @@
             
         </li>
     
-        <li class="chapter " data-level="5.1.7.6" data-path="../../API/开放接口/模板消息.html">
+        <li class="chapter " data-level="5.1.7.4.2" data-path="../../API/开放接口/模板消息.html">
             
                 <a href="../../API/开放接口/模板消息.html#接口说明">
             
@@ -1874,6 +1875,11 @@
                 </a>
             
 
+            
+        </li>
+    
+
+            </ul>
             
         </li>
     
@@ -2209,10 +2215,10 @@
 <table>
 <thead>
 <tr>
-<th>&#x5C5E;&#x6027;&#x540D;&#x7C7B;&#x578B;&#x9ED8;&#x8BA4;&#x503C;&#x8BF4;&#x660E;</th>
-<th></th>
-<th></th>
-<th></th>
+<th>&#x5C5E;&#x6027;&#x540D;</th>
+<th>&#x7C7B;&#x578B;</th>
+<th>&#x9ED8;&#x8BA4;&#x503C;</th>
+<th>&#x8BF4;&#x660E;</th>
 </tr>
 </thead>
 <tbody>
@@ -2247,8 +2253,8 @@
 <table>
 <thead>
 <tr>
-<th>&#x6A21;&#x5F0F;&#x8BF4;&#x660E;</th>
-<th></th>
+<th>&#x6A21;&#x5F0F;</th>
+<th>&#x8BF4;&#x660E;</th>
 </tr>
 </thead>
 <tbody>
@@ -2270,8 +2276,8 @@
 <table>
 <thead>
 <tr>
-<th>&#x6A21;&#x5F0F;&#x8BF4;&#x660E;</th>
-<th></th>
+<th>&#x6A21;&#x5F0F;</th>
+<th>&#x8BF4;&#x660E;</th>
 </tr>
 </thead>
 <tbody>
@@ -2320,10 +2326,10 @@
     &lt;text class=&quot;page__desc&quot;&gt;&#x56FE;&#x7247;&lt;/text&gt;
   &lt;/view&gt;
   &lt;view class=&quot;page__bd&quot;&gt;
-    &lt;view class=&quot;section section_gap&quot; wx:for=&quot;&quot; wx:for-item=&quot;item&quot;&gt;
-      &lt;view class=&quot;section__title&quot;&gt;&lt;/view&gt;
+    &lt;view class=&quot;section section_gap&quot; wx:for=&quot;{{array}}&quot; wx:for-item=&quot;item&quot;&gt;
+      &lt;view class=&quot;section__title&quot;&gt;{{item.text}}&lt;/view&gt;
       &lt;view class=&quot;section__ctn&quot;&gt;
-        &lt;image style=&quot;width: 200px; height: 200px; background-color: #eeeeee;&quot; mode=&quot;&quot; src=&quot;&quot;&gt;&lt;/image&gt;
+        &lt;image style=&quot;width: 200px; height: 200px; background-color: #eeeeee;&quot; mode=&quot;{{item.mode}}&quot; src=&quot;{{src}}&quot;&gt;&lt;/image&gt;
       &lt;/view&gt;
     &lt;/view&gt;
   &lt;/view&gt;
@@ -2385,32 +2391,32 @@
 <p>&#x4FDD;&#x6301;&#x7EB5;&#x6A2A;&#x6BD4;&#x7F29;&#x653E;&#x56FE;&#x7247;&#xFF0C;&#x53EA;&#x4FDD;&#x8BC1;&#x56FE;&#x7247;&#x7684;&#x77ED;&#x8FB9;&#x80FD;&#x5B8C;&#x5168;&#x663E;&#x793A;&#x51FA;&#x6765;</p>
 <p><img src="../../image/cat/3.png" alt=""></p>
 <h5 id="top">top</h5>
-<p>&#x4E0D;&#x7F29;&#x653E;&#x56FE;&#x7247;&#xFF0C;&#x53EA;&#x663E;&#x793A;&#x56FE;&#x7247;&#x7684;&#x9876;&#x90E8;&#x533A;&#x57DF;
-<img src="../../image/cat/4.png" alt=""></p>
+<p>&#x4E0D;&#x7F29;&#x653E;&#x56FE;&#x7247;&#xFF0C;&#x53EA;&#x663E;&#x793A;&#x56FE;&#x7247;&#x7684;&#x9876;&#x90E8;&#x533A;&#x57DF;</p>
+<p><img src="../../image/cat/4.png" alt=""></p>
 <h5 id="bottom">bottom</h5>
-<p>&#x4E0D;&#x7F29;&#x653E;&#x56FE;&#x7247;&#xFF0C;&#x53EA;&#x663E;&#x793A;&#x56FE;&#x7247;&#x7684;&#x5E95;&#x90E8;&#x533A;&#x57DF;
-<img src="../../image/cat/5.png" alt=""></p>
+<p>&#x4E0D;&#x7F29;&#x653E;&#x56FE;&#x7247;&#xFF0C;&#x53EA;&#x663E;&#x793A;&#x56FE;&#x7247;&#x7684;&#x5E95;&#x90E8;&#x533A;&#x57DF;</p>
+<p><img src="../../image/cat/5.png" alt=""></p>
 <h5 id="center">center</h5>
-<p>&#x4E0D;&#x7F29;&#x653E;&#x56FE;&#x7247;&#xFF0C;&#x53EA;&#x663E;&#x793A;&#x56FE;&#x7247;&#x7684;&#x4E2D;&#x95F4;&#x533A;&#x57DF;
-<img src="../../image/cat/6.png" alt=""></p>
+<p>&#x4E0D;&#x7F29;&#x653E;&#x56FE;&#x7247;&#xFF0C;&#x53EA;&#x663E;&#x793A;&#x56FE;&#x7247;&#x7684;&#x4E2D;&#x95F4;&#x533A;&#x57DF;</p>
+<p><img src="../../image/cat/6.png" alt=""></p>
 <h5 id="left">left</h5>
-<p>&#x4E0D;&#x7F29;&#x653E;&#x56FE;&#x7247;&#xFF0C;&#x53EA;&#x663E;&#x793A;&#x56FE;&#x7247;&#x7684;&#x5DE6;&#x8FB9;&#x533A;&#x57DF;
-<img src="../../image/cat/7.png" alt=""></p>
+<p>&#x4E0D;&#x7F29;&#x653E;&#x56FE;&#x7247;&#xFF0C;&#x53EA;&#x663E;&#x793A;&#x56FE;&#x7247;&#x7684;&#x5DE6;&#x8FB9;&#x533A;&#x57DF;</p>
+<p><img src="../../image/cat/7.png" alt=""></p>
 <h5 id="right">right</h5>
-<p>&#x4E0D;&#x7F29;&#x653E;&#x56FE;&#x7247;&#xFF0C;&#x53EA;&#x663E;&#x793A;&#x56FE;&#x7247;&#x7684;&#x53F3;&#x8FB9;&#x8FB9;&#x533A;&#x57DF;
-<img src="../../image/cat/8.png" alt=""></p>
+<p>&#x4E0D;&#x7F29;&#x653E;&#x56FE;&#x7247;&#xFF0C;&#x53EA;&#x663E;&#x793A;&#x56FE;&#x7247;&#x7684;&#x53F3;&#x8FB9;&#x8FB9;&#x533A;&#x57DF;</p>
+<p><img src="../../image/cat/8.png" alt=""></p>
 <h5 id="top-left">top left</h5>
-<p>&#x4E0D;&#x7F29;&#x653E;&#x56FE;&#x7247;&#xFF0C;&#x53EA;&#x663E;&#x793A;&#x56FE;&#x7247;&#x7684;&#x5DE6;&#x4E0A;&#x8FB9;&#x533A;&#x57DF;
-<img src="../../image/cat/9.png" alt=""></p>
+<p>&#x4E0D;&#x7F29;&#x653E;&#x56FE;&#x7247;&#xFF0C;&#x53EA;&#x663E;&#x793A;&#x56FE;&#x7247;&#x7684;&#x5DE6;&#x4E0A;&#x8FB9;&#x533A;&#x57DF;</p>
+<p><img src="../../image/cat/9.png" alt=""></p>
 <h5 id="top-right">top right</h5>
-<p>&#x4E0D;&#x7F29;&#x653E;&#x56FE;&#x7247;&#xFF0C;&#x53EA;&#x663E;&#x793A;&#x56FE;&#x7247;&#x7684;&#x53F3;&#x4E0A;&#x8FB9;&#x533A;&#x57DF;
-<img src="../../image/cat/10.png" alt=""></p>
+<p>&#x4E0D;&#x7F29;&#x653E;&#x56FE;&#x7247;&#xFF0C;&#x53EA;&#x663E;&#x793A;&#x56FE;&#x7247;&#x7684;&#x53F3;&#x4E0A;&#x8FB9;&#x533A;&#x57DF;</p>
+<p><img src="../../image/cat/10.png" alt=""></p>
 <h5 id="bottom-left">bottom left</h5>
-<p>&#x4E0D;&#x7F29;&#x653E;&#x56FE;&#x7247;&#xFF0C;&#x53EA;&#x663E;&#x793A;&#x56FE;&#x7247;&#x7684;&#x5DE6;&#x4E0B;&#x8FB9;&#x533A;&#x57DF;
-<img src="../../image/cat/11.png" alt=""></p>
+<p>&#x4E0D;&#x7F29;&#x653E;&#x56FE;&#x7247;&#xFF0C;&#x53EA;&#x663E;&#x793A;&#x56FE;&#x7247;&#x7684;&#x5DE6;&#x4E0B;&#x8FB9;&#x533A;&#x57DF;</p>
+<p><img src="../../image/cat/11.png" alt=""></p>
 <h5 id="bottom-right">bottom right</h5>
-<p>&#x4E0D;&#x7F29;&#x653E;&#x56FE;&#x7247;&#xFF0C;&#x53EA;&#x663E;&#x793A;&#x56FE;&#x7247;&#x7684;&#x53F3;&#x4E0B;&#x8FB9;&#x533A;&#x57DF;
-<img src="../../image/cat/12.png" alt=""></p>
+<p>&#x4E0D;&#x7F29;&#x653E;&#x56FE;&#x7247;&#xFF0C;&#x53EA;&#x663E;&#x793A;&#x56FE;&#x7247;&#x7684;&#x53F3;&#x4E0B;&#x8FB9;&#x533A;&#x57DF;</p>
+<p><img src="../../image/cat/12.png" alt=""></p>
 
                                 
                                 </section>
@@ -2454,7 +2460,7 @@
     <script>
         var gitbook = gitbook || [];
         gitbook.push(function() {
-            gitbook.page.hasChanged({"page":{"title":"image","level":"4.1.6.2","depth":3,"next":{"title":"video","level":"4.1.6.3","depth":3,"path":"组件/媒体组件/video.md","ref":"组件/媒体组件/video.md","articles":[]},"previous":{"title":"audio","level":"4.1.6.1","depth":3,"path":"组件/媒体组件/audio.md","ref":"组件/媒体组件/audio.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":["betterchinese","-duoshuo","highlight","search","lunr","sharing","-livereload","baidu"],"pluginsConfig":{"search":{},"lunr":{"ignoreSpecialCharacters":false,"maxIndexSize":1000000},"duoshuo":{"short_name":"xcxlm.cn","theme":"default"},"fontsettings":{"theme":"white","family":"sans","size":2},"highlight":{},"baidu":{"token":"4f5ee462bdc0d4fb36bab026bba34eaf"},"sharing":{"all":["facebook","google","twitter","weibo","instapaper"],"facebook":false,"google":false,"instapaper":false,"twitter":false,"vk":false,"weibo":true},"betterchinese":{},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"组件/媒体组件/image.md","mtime":"2016-10-17T05:29:09.470Z","type":"markdown"},"gitbook":{"version":"3.2.2","time":"2016-10-17T05:59:12.276Z"},"basePath":"../..","book":{"language":""}});
+            gitbook.page.hasChanged({"page":{"title":"image","level":"4.1.6.2","depth":3,"next":{"title":"video","level":"4.1.6.3","depth":3,"path":"组件/媒体组件/video.md","ref":"组件/媒体组件/video.md","articles":[]},"previous":{"title":"audio","level":"4.1.6.1","depth":3,"path":"组件/媒体组件/audio.md","ref":"组件/媒体组件/audio.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":["betterchinese","-duoshuo","highlight","search","lunr","sharing","-livereload","baidu"],"pluginsConfig":{"search":{},"lunr":{"ignoreSpecialCharacters":false,"maxIndexSize":1000000},"duoshuo":{"short_name":"xcxlm.cn","theme":"default"},"fontsettings":{"theme":"white","family":"sans","size":2},"highlight":{},"baidu":{"token":"4f5ee462bdc0d4fb36bab026bba34eaf"},"sharing":{"all":["facebook","google","twitter","weibo","instapaper"],"facebook":false,"google":false,"instapaper":false,"twitter":false,"vk":false,"weibo":true},"betterchinese":{},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"组件/媒体组件/image.md","mtime":"2016-10-17T07:41:07.935Z","type":"markdown"},"gitbook":{"version":"3.2.2","time":"2016-10-17T08:01:58.350Z"},"basePath":"../..","book":{"language":""}});
         });
     </script>
 </div>

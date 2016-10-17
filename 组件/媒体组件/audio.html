@@ -1849,9 +1849,10 @@
             
 
             
-        </li>
+            <ul class="articles">
+                
     
-        <li class="chapter " data-level="5.1.7.5" data-path="../../API/开放接口/模板消息.html">
+        <li class="chapter " data-level="5.1.7.4.1" data-path="../../API/开放接口/模板消息.html">
             
                 <a href="../../API/开放接口/模板消息.html#使用说明">
             
@@ -1864,7 +1865,7 @@
             
         </li>
     
-        <li class="chapter " data-level="5.1.7.6" data-path="../../API/开放接口/模板消息.html">
+        <li class="chapter " data-level="5.1.7.4.2" data-path="../../API/开放接口/模板消息.html">
             
                 <a href="../../API/开放接口/模板消息.html#接口说明">
             
@@ -1874,6 +1875,11 @@
                 </a>
             
 
+            
+        </li>
+    
+
+            </ul>
             
         </li>
     
@@ -2209,10 +2215,10 @@
 <table>
 <thead>
 <tr>
-<th>&#x5C5E;&#x6027;&#x540D;&#x7C7B;&#x578B;&#x9ED8;&#x8BA4;&#x503C;&#x8BF4;&#x660E;</th>
-<th></th>
-<th></th>
-<th></th>
+<th>&#x5C5E;&#x6027;&#x540D;</th>
+<th>&#x7C7B;&#x578B;</th>
+<th>&#x9ED8;&#x8BA4;&#x503C;</th>
+<th>&#x8BF4;&#x660E;</th>
 </tr>
 </thead>
 <tbody>
@@ -2268,7 +2274,7 @@
 <td>bindplay</td>
 <td>EventHandle</td>
 <td></td>
-<td>&#x5F53;&#x5F00;&#x59CB;\/&#x7EE7;&#x7EED;&#x64AD;&#x653E;&#x65F6;&#x89E6;&#x53D1;play&#x4E8B;&#x4EF6;</td>
+<td>&#x5F53;&#x5F00;&#x59CB;/&#x7EE7;&#x7EED;&#x64AD;&#x653E;&#x65F6;&#x89E6;&#x53D1;play&#x4E8B;&#x4EF6;</td>
 </tr>
 <tr>
 <td>bindpause</td>
@@ -2300,8 +2306,8 @@
 <table>
 <thead>
 <tr>
-<th>&#x8FD4;&#x56DE;&#x9519;&#x8BEF;&#x7801;&#x63CF;&#x8FF0;</th>
-<th></th>
+<th>&#x8FD4;&#x56DE;&#x9519;&#x8BEF;&#x7801;</th>
+<th>&#x63CF;&#x8FF0;</th>
 </tr>
 </thead>
 <tbody>
@@ -2327,9 +2333,9 @@
 <table>
 <thead>
 <tr>
-<th>method&#x63CF;&#x8FF0;data</th>
-<th></th>
-<th></th>
+<th>method</th>
+<th>&#x63CF;&#x8FF0;</th>
+<th>data</th>
 </tr>
 </thead>
 <tbody>
@@ -2358,7 +2364,7 @@
 <p><strong>&#x793A;&#x4F8B;&#x4EE3;&#x7801;&#xFF1A;</strong></p>
 <p>action&#x7684;method&#x5C5E;&#x6027;&#x53EA;&#x80FD;&#x662F;<code>play</code>&#x3001;<code>pause</code>&#x3001;<code>setPlaybackRate</code>&#x3001;<code>setCurrentTime</code>&#xFF0C;&#x7528;&#x6CD5;&#x5982;&#x4E0B;&#xFF1A;</p>
 <pre><code>&lt;!-- &#x5FAA;&#x73AF;&#x64AD;&#x653E; --&gt;
-&lt;audio poster=&quot;&quot; name=&quot;&quot; author=&quot;&quot; src=&quot;&quot; action=&quot;&quot; controls loop&gt;&lt;/audio&gt;
+&lt;audio poster=&quot;{{poster}}&quot; name=&quot;{{name}}&quot; author=&quot;{{author}}&quot; src=&quot;{{src}}&quot; action=&quot;{{action}}&quot; controls loop&gt;&lt;/audio&gt;
 
 &lt;button type=&quot;primary&quot; bindtap=&quot;audioPlay&quot;&gt;&#x64AD;&#x653E;&lt;/button&gt;
 &lt;button type=&quot;primary&quot; bindtap=&quot;audioPause&quot;&gt;&#x6682;&#x505C;&lt;/button&gt;
@@ -2474,7 +2480,7 @@ Page({
     <script>
         var gitbook = gitbook || [];
         gitbook.push(function() {
-            gitbook.page.hasChanged({"page":{"title":"媒体组件","level":"4.1.6","depth":2,"next":{"title":"audio","level":"4.1.6.1","depth":3,"path":"组件/媒体组件/audio.md","ref":"组件/媒体组件/audio.md","articles":[]},"previous":{"title":"navigator","level":"4.1.5.1","depth":3,"path":"组件/导航/navigator.md","ref":"组件/导航/navigator.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":["betterchinese","-duoshuo","highlight","search","lunr","sharing","-livereload","baidu"],"pluginsConfig":{"search":{},"lunr":{"ignoreSpecialCharacters":false,"maxIndexSize":1000000},"duoshuo":{"short_name":"xcxlm.cn","theme":"default"},"fontsettings":{"theme":"white","family":"sans","size":2},"highlight":{},"baidu":{"token":"4f5ee462bdc0d4fb36bab026bba34eaf"},"sharing":{"all":["facebook","google","twitter","weibo","instapaper"],"facebook":false,"google":false,"instapaper":false,"twitter":false,"vk":false,"weibo":true},"betterchinese":{},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"组件/媒体组件/audio.md","mtime":"2016-10-17T05:29:09.470Z","type":"markdown"},"gitbook":{"version":"3.2.2","time":"2016-10-17T05:59:12.276Z"},"basePath":"../..","book":{"language":""}});
+            gitbook.page.hasChanged({"page":{"title":"媒体组件","level":"4.1.6","depth":2,"next":{"title":"audio","level":"4.1.6.1","depth":3,"path":"组件/媒体组件/audio.md","ref":"组件/媒体组件/audio.md","articles":[]},"previous":{"title":"navigator","level":"4.1.5.1","depth":3,"path":"组件/导航/navigator.md","ref":"组件/导航/navigator.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":["betterchinese","-duoshuo","highlight","search","lunr","sharing","-livereload","baidu"],"pluginsConfig":{"search":{},"lunr":{"ignoreSpecialCharacters":false,"maxIndexSize":1000000},"duoshuo":{"short_name":"xcxlm.cn","theme":"default"},"fontsettings":{"theme":"white","family":"sans","size":2},"highlight":{},"baidu":{"token":"4f5ee462bdc0d4fb36bab026bba34eaf"},"sharing":{"all":["facebook","google","twitter","weibo","instapaper"],"facebook":false,"google":false,"instapaper":false,"twitter":false,"vk":false,"weibo":true},"betterchinese":{},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"组件/媒体组件/audio.md","mtime":"2016-10-17T07:38:33.012Z","type":"markdown"},"gitbook":{"version":"3.2.2","time":"2016-10-17T08:01:58.350Z"},"basePath":"../..","book":{"language":""}});
         });
     </script>
 </div>
